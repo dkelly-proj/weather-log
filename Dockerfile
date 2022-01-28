@@ -3,4 +3,4 @@ WORKDIR /weather-log
 COPY requirements.txt requirements.txt
 RUN pip install -r requirements.txt
 COPY . .
-CMD ["python3" "weather_log.py"]
+CMD ["python", "./weather_log.py"]
